@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "MX Monitoring",
+    "version": "1.0",
+    "description": "mx desc.",
+    "icons": { "128": "icon.png" },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "MXM System"
+    },
+    "permissions": [
+        "http://*/",
+        "bookmarks",
+        "tabs",
+        "history",
+        "notifications"
+    ],
+    "background":{
+        "scripts": ["js/background.js"]
+    },
+     "content_scripts": [{
+         "matches": ["http://*/*","https://*/*"],
+         "js": ["js/jquery-1.9.1.min.js", "js/mx_monitoring.js"],
+         "run_at": "document_start"
+    }]
+}
