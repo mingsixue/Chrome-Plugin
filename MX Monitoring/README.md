@@ -1,7 +1,7 @@
 # MX Monitoring #
-  ![MX Monitoring](icon.png)
-
   页面数据监控报警插件
+
+  ![MX Monitoring](icon.png)
 
 ## 用途 ##
   自己做的一个监控报警小插件，适用于运维监控、管理系统等
