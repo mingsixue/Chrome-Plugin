@@ -1,10 +1,13 @@
 # MX Monitoring #
-  ![MX Monitoring][icon.png]
+  ![MX Monitoring](icon.png)
+
   页面数据监控报警插件
 
 ## 用途 ##
   自己做的一个监控报警小插件，适用于运维监控、管理系统等
+
   适用于表格(Table)型HTML结构
+
   适用于Google Chrome浏览器
 
 ## 使用方法 ##
