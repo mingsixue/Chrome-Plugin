@@ -52,7 +52,8 @@ function play() {
 
 // 监听页面消息
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-  if (request.mx_len)
+  if (request.mx_len) {
     show();
     play();
+  }
 });
